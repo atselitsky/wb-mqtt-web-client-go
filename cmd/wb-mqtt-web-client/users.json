@@ -1,0 +1,61 @@
+{
+ "debug": false,
+ "ports": [
+  {
+   "path": "/dev/ttyRS485-1",
+   "devices": [
+    {
+     "slave_id": 123,
+     "device_type": "WB-M1W2"
+    }
+   ],
+   "port_type": "serial",
+   "baud_rate": 1200,
+   "parity": "N",
+   "data_bits": 8,
+   "stop_bits": 2,
+   "poll_interval": 10,
+   "enabled": true
+  },
+  {
+   "path": "/dev/ttyRS485-2",
+   "devices": [],
+   "baud_rate": 9600,
+   "parity": "N",
+   "data_bits": 8,
+   "stop_bits": 2,
+   "poll_interval": 1023213,
+   "enabled": false
+  },
+  {
+   "path": "/dev/ttyMOD1",
+   "devices": [],
+   "baud_rate": 9600,
+   "parity": "N",
+   "data_bits": 8,
+   "stop_bits": 2,
+   "poll_interval": 10,
+   "enabled": false
+  },
+  {
+   "path": "/dev/ttyMOD2",
+   "devices": [],
+   "baud_rate": 9600,
+   "parity": "N",
+   "data_bits": 8,
+   "stop_bits": 2,
+   "poll_interval": 10,
+   "enabled": false
+  },
+  {
+   "path": "/dev/ttyMOD3",
+   "devices": [],
+   "baud_rate": 32132131,
+   "parity": "N",
+   "data_bits": 8,
+   "stop_bits": 2,
+   "poll_interval": 10111,
+   "enabled": true
+  }
+ ]
+}

@@ -1,0 +1,13 @@
+# Configurations of this mqtt client
+#Client location
+#persistence_location ?/services/wb-homeui?
+  ClientID: $ENV{ClientID}
+  #broker: mosquitto
+  #port: 1883
+  Username: root
+  #!!implicitly pasted password!!
+  Password: wirenboard
+  #name of func that will be specified later
+  # defauldPublishHandler:
+  # OnConnect: connectHandler
+  # OnConnectLost: connectLostHandler
